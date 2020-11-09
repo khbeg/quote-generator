@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>quote generator</title>
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text">
+            <i class="fab fa-twitter-square fa-quote-left"></i>
+            <span id="quote"> </span>
+        </div>
+        <!-- author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New quote</button>
+        </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+    <script src="script.js"></script>
+</body>
+</html>
